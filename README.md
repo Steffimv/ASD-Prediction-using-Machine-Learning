@@ -16,23 +16,23 @@ Features: Behavioral scores (A1_Score to A10_Score), age, gender, jaundice, auti
 
 ### Models Used
 Model	Abbreviation
-Logistic Regression	LR
-Support Vector Machine (SVC)	SVM
-Decision Tree	DT
-Random Forest	RF
-XGBoost Classifier	XGB
+1. Logistic Regression	LR
+2. Support Vector Machine	SVM
+3. Decision Tree	DT
+4. Random Forest	RF
+5. XGBoost Classifier	XGB
 
-Each model is evaluated using two validation splits: 70:30 and 80:20.
+Each model is evaluated using two validation splits: **70:30 and 80:20**.
 
 ### Evaluation Metrics
 The following metrics are calculated and stored:
-Accuracy
-Precision (for class 0 and 1)
-Recall / Sensitivity
-Specificity
-F1-score (for class 0 and 1)
-ROC AUC Score
-Training and Testing Time
+1. Accuracy
+2. Precision (for class 0 and 1)
+3. Recall / Sensitivity
+4. Specificity
+5. F1-score (for class 0 and 1)
+6. ROC AUC Score
+7. Training and Testing Time
 
 ### Important Features (for interpretable models)
 The ROC curve is plotted for models supporting probability estimates.
